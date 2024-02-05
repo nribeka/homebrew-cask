@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Dispatch /rebase Command
-        uses: peter-evans/slash-command-dispatch@2afb49dbaafaba8005860648bf7fc178637aca0d
+        uses: peter-evans/slash-command-dispatch@13bc09769d122a64f75aa5037256f6f2d78be8c4
         with:
           token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
           reaction-token: ${{ secrets.HOMEBREW_GITHUB_PUBLIC_REPO_TOKEN }}
